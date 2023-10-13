@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="date"
+        android:hint="Enter expense date"/>
+
+    <EditText
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="text"
+        android:hint="Enter expense title"/>
+
+    <EditText
+        android:id="@+id/amountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="12"
+        android:hint="Enter amount"/>
+
+    <Button
+        android:id="@+id/addButton"
+        android:ems="12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Expense"/>
+
+    <Button
+        android:id="@+id/showButton"
+        android:ems="12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Expenses"/>
+
+
+</LinearLayout>
